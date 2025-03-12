@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -33,7 +34,7 @@ const Hero = () => {
             <span>•</span> <span>Optimization</span>
           </div>
           <p className="mt-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="font-bold text-black dark:text-white">
               Gem Michael
             </span>
@@ -45,11 +46,11 @@ const Hero = () => {
             <span className="font-bold text-black dark:text-white">
               MongoDB, Next.js, Tailwind CSS, and more.
             </span>{" "}
-            I'm always{" "}
+            I&apos;m always{" "}
             <span className="font-bold text-black dark:text-white">
               upskilling {""}
             </span>
-            to meet client expectations, and right now, I'm diving deeper into{" "}
+            to meet client expectations, and right now, I&apos;m diving deeper into{" "}
             <span className="font-bold text-black dark:text-white"> AI automation and SaaS </span>
             to create impactful solutions for various industries.{" "}
           </p>
@@ -58,7 +59,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="hidden lg:block w-full lg:w-[397px] relative" data-aos="zoom-in-up">
-          <img
+          <Image
             className="ml-auto w-full lg:h-[483px] object-cover relative rounded-sm"
             src="/pictures/profile.jpg"
             alt="Profile"
