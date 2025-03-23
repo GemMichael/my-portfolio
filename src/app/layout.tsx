@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Gem Michael | Full-Stack Developer",
     description: "Helping businesses build high-performance web applications using Next.js, MongoDB, and Tailwind CSS. Available for freelance projects!",
-    url: "https://Gem.com",
+    url: "https://gemmichaeln.vercel.app/",
     type: "website",
     images: [
       {
