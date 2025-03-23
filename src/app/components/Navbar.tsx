@@ -39,7 +39,7 @@ const Navbar = () => {
               Let’s talk
             </button>
             {isModalOpen && (
-              <div className="absolute left-0 mt-2 w-80 bg-white dark:bg-gray-900 shadow-lg rounded-sm p-6 z-50">
+              <div className="absolute xs:right-[50px] sm:right-20  md:right-20 lg:right-20 mt-2 w-80 bg-white dark:bg-gray-900 shadow-lg rounded-sm p-6 z-50">
                 <h2 className="text-lg font-semibold text-black dark:text-white mb-3">
                   Let’s Talk
                 </h2>
@@ -109,6 +109,15 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
+          <button
+            onClick={() => {
+              setIsModalOpen(true);
+              setIsOpen(false); 
+            }}
+            className="mt-4 w-full px-5 py-2 border border-gray-500 text-black dark:text-white text-sm font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition rounded-sm"
+          >
+            Let’s Talk
+          </button>
         </div>
       )}
     </nav>

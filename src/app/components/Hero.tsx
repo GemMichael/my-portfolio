@@ -1,20 +1,27 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Hero = () => {
-      useEffect(() => {
-        AOS.init({
-          duration: 1000, 
-          once: true, 
-        });
-      }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
+  const handleDownloadCV = () => {
+    const cvUrl = "/Gem.pdf";
+    window.open(cvUrl, "_blank");
+  };
   return (
     <section className="relative w-full h-screen flex items-center justify-center bg-[#F5F5F5] dark:bg-[#121212] transition-colors duration-300">
       <div className="relative w-full max-w-screen-xl mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="w-full md:w-1/2 text-black dark:text-white z-10" data-aos="fade-down-right">
+        <div
+          className="w-full md:w-1/2 text-black dark:text-white z-10"
+          data-aos="fade-down-right"
+        >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             Full-Stack{" "}
             <span className="relative">
@@ -50,16 +57,26 @@ const Hero = () => {
             <span className="font-bold text-black dark:text-white">
               upskilling {""}
             </span>
-            to meet client expectations, and right now, I&apos;m diving deeper into{" "}
-            <span className="font-bold text-black dark:text-white"> AI automation and SaaS </span>
+            to meet client expectations, and right now, I&apos;m diving deeper
+            into{" "}
+            <span className="font-bold text-black dark:text-white">
+              {" "}
+              AI automation and SaaS{" "}
+            </span>
             to create impactful solutions for various industries.{" "}
           </p>
-          <button className="mt-6 bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-sm text-lg font-semibold shadow-md hover:bg-gray-800 dark:hover:bg-gray-200 transition">
-            Learn more
+          <button
+            onClick={handleDownloadCV}
+            className="mt-6 bg-black text-white dark:bg-white dark:text-black px-6 py-3 rounded-sm text-lg font-semibold shadow-md hover:bg-gray-800 dark:hover:bg-gray-200 transition"
+          >
+            Learn More
           </button>
         </div>
-        <div className="hidden lg:block w-full lg:w-[397px] relative" data-aos="zoom-in-up">
-          <Image
+        <div
+          className="hidden lg:block w-full lg:w-[397px] relative"
+          data-aos="zoom-in-up"
+        >
+          <img
             className="ml-auto w-full lg:h-[483px] object-cover relative rounded-sm"
             src="/pictures/profile.jpg"
             alt="Profile"
