@@ -17,7 +17,7 @@ const Hero = () => {
   };
   return (
     <section className="relative w-full h-screen flex items-center justify-center bg-[#F5F5F5] dark:bg-[#121212] transition-colors duration-300">
-      <div className="relative w-full max-w-screen-xl mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div className="relative w-full max-w-screen-xl mx-auto px-8 md:px-16 flex flex-col md:flex-row items-center justify-between gap-6 mt-4 sm:mt-10 md:mt-0">
         <div
           className="w-full md:w-1/2 text-black dark:text-white z-10"
           data-aos="fade-down-right"
