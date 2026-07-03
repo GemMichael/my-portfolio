@@ -48,7 +48,7 @@ const About = () => {
                 <p className="text-black dark:text-white font-semibold">
                   EXPERIENCE
                 </p>
-                <p>2+ years</p>
+                <p>4+ years</p>
               </div>
               <div>
                 <p className="text-black dark:text-white font-semibold">
@@ -67,11 +67,11 @@ const About = () => {
             </p>
           </div>
           <div className="p-6 border border-gray-400 dark:border-gray-600 text-center bg-gray-300 dark:bg-gray-800 text-black dark:text-white transition-transform hover:scale-105 hover:border-gray-500 dark:hover:border-gray-300 rounded-sm">
-            <h3 className="text-4xl font-bold">10+</h3>
+            <h3 className="text-4xl font-bold">20+</h3>
             <p className="font-semibold">Projects Completed</p>
           </div>
           <div className="p-6 border border-gray-400 dark:border-gray-600 text-center rounded-sm">
-            <h3 className="text-4xl font-bold">10+</h3>
+            <h3 className="text-4xl font-bold">20+</h3>
             <p className="text-gray-700 dark:text-gray-400">Happy Clients</p>
           </div>
         </div>

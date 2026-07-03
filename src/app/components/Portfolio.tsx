@@ -9,28 +9,33 @@ import "aos/dist/aos.css";
 const projects = [
   {
     id: 1,
-    image: "/pictures/web1.png", 
-    link: "https://aviate-ph.live/",
+    image: "/pictures/web1.png",
+    link: "https://aviate-ph.vercel.app/",
   },
   {
     id: 2,
+    image: "/pictures/web4.JPG",
+    link: "https://safeflightschool.ph/",
+  },
+  {
+    id: 3,
     image: "/pictures/web2.png",
     link: "https://gemmichael.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: "/pictures/web3.png",
     link: "https://employee-management-dashboard-kappa.vercel.app/",
   },
 ];
 
 const Portfolio = () => {
-    useEffect(() => {
-      AOS.init({
-        duration: 1000, 
-        once: true, 
-      });
-    }, []);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   return (
     <section className="relative w-full min-h-screen bg-[#F5F5F5] dark:bg-[#121212] transition-colors duration-300  items-center justify-center">
       <div className="relative max-w-5xl mx-auto px-6">
