@@ -23,47 +23,45 @@ const Hero = () => {
           data-aos="fade-down-right"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Full-Stack{" "}
+            Software{" "}
             <span className="relative">
               <span className="inline-block relative">
-                Developer
+                Engineer
                 <span className="absolute left-0 bottom-0 h-[3px] w-full bg-green-500 opacity-90 blur-sm"></span>
               </span>
             </span>
           </h1>
 
           <h2 className="text-3xl md:text-4xl font-bold mt-3">
-            Building Scalable & Modern Web Solutions
+            Building Scalable Web, Mobile & AI Solutions
           </h2>
 
           <div className="flex gap-4 mt-5 text-gray-600 dark:text-gray-400 uppercase text-sm font-semibold tracking-wide">
-            <span>Design</span> <span>•</span> <span>Development</span>{" "}
-            <span>•</span> <span>Optimization</span>
+            <span>Web</span> <span>•</span> <span>Mobile</span>{" "}
+            <span>•</span> <span>AI</span>
           </div>
           <p className="mt-6 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            Hi, I&apos;m{" "}
+            Hi, I'm{" "}
             <span className="font-bold text-black dark:text-white">
               Gem Michael
             </span>
-            , a passionate{" "}
+            , a{" "}
             <span className="font-bold text-black dark:text-white">
-              Full-Stack Developer{" "}
-            </span>
+              Software Engineer
+            </span>{" "}
             specializing in{" "}
             <span className="font-bold text-black dark:text-white">
-              MongoDB, Next.js, Tailwind CSS, and more.
+              full-stack web and mobile development
+            </span>
+            . I build modern, scalable applications using{" "}
+            <span className="font-bold text-black dark:text-white">
+              React, Next.js, React Native, TypeScript, Node.js, and cloud technologies
+            </span>
+            . I'm continuously expanding my expertise in{" "}
+            <span className="font-bold text-black dark:text-white">
+              AI, automation, and SaaS
             </span>{" "}
-            I&apos;m always{" "}
-            <span className="font-bold text-black dark:text-white">
-              upskilling {""}
-            </span>
-            to meet client expectations, and right now, I&apos;m diving deeper
-            into{" "}
-            <span className="font-bold text-black dark:text-white">
-              {" "}
-              AI automation and SaaS{" "}
-            </span>
-            to create impactful solutions for various industries.{" "}
+            to create software solutions that help businesses innovate and grow.
           </p>
           <button
             onClick={handleDownloadCV}
